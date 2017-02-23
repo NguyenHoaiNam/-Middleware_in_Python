@@ -5,16 +5,17 @@ This example is archive from [`Link`](http://www.giantflyingsaucer.com/blog/?p=4
 
 ### How to run
 
-##### Step 1: Start python enviroment
+##### Step 1: Create a virtual environment
 
 ```
-cd ~/Middleware_in_Python/example_one/PythonProjects/MiddlewareExample
-source bin/activate
+virtualenv all_env
+source all_env/bin/activate
+pip install Paste WebOb PasteDeploy
 ```
 ##### Step 2: Start app
 
 ```
-python src/app.py
+python example_one/app.py
 ```
 
 
